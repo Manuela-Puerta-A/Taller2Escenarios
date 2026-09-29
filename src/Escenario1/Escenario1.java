@@ -6,8 +6,9 @@ import java.util.PriorityQueue;
 
 public class Escenario1 {
 
-    // guarda los documentos en el orden en que llegan y no deja repetidos revisando todo
-    static LinkedHashSet<String> ordenLlegada = new LinkedHashSet<>();//revisando
+    // guarda los documentos en el orden en que llegan y no deja repetidos revisando
+    // todo
+    static LinkedHashSet<String> ordenLlegada = new LinkedHashSet<>();// revisando
     // guarda el paciente usando el documento como clave para buscar rapido
     static HashMap<String, Paciente> pacientes = new HashMap<>();
     // cola de prioridad para atender primero a los graves

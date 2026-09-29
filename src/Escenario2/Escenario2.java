@@ -1,8 +1,11 @@
+package Escenario2;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.TreeSet;
+
 public class Escenario2 {
 
     static HashMap<String, Producto> productos = new HashMap<>();
@@ -56,3 +59,4 @@ public class Escenario2 {
             p.mostrar();
         }
     }
+}

@@ -1,4 +1,8 @@
-Public class Main {
+package Escenario2;
+
+import static Escenario2.Escenario2.*;
+
+public class Main {
     public static void main(String[] args) {
 
         agregar(new Producto("P1", "Mouse", 45000, "Tecnologia", 10));
@@ -20,8 +24,8 @@ Public class Main {
 
         // ---------------- FASE 4: MEDICION ----------------
         System.out.println("\n---- MEDICION ----");
-        int[] tamanos = {100, 1000, 10000, 100000};
-        String[] cats = {"Tecnologia", "Ropa", "Hogar", "Deportes"};
+        int[] tamanos = { 100, 1000, 10000, 100000 };
+        String[] cats = { "Tecnologia", "Ropa", "Hogar", "Deportes" };
 
         for (int i = 0; i < tamanos.length; i++) {
             int n = tamanos[i];

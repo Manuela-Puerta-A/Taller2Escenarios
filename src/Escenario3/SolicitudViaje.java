@@ -1,7 +1,5 @@
 package Escenario3;
 
-
-
 // Clase solicitud de viaje
 public class SolicitudViaje {
     String id;

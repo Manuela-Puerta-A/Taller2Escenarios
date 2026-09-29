@@ -24,4 +24,3 @@ class ComparadorGravedad implements Comparator<Paciente> {
         return a.gravedad - b.gravedad;
     }
 }
-
