@@ -1,10 +1,6 @@
 package Escenario2;
 
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.TreeSet;
 
 // Clase producto
 public class Producto {
