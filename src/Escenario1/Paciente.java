@@ -1,3 +1,5 @@
+package Escenario1;
+
 import java.util.Comparator;
 
 public class Paciente {

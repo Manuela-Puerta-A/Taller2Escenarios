@@ -1,3 +1,5 @@
+package Escenario1;
+
 public class Main {
 
 public static void main(String[] args) {
@@ -40,7 +42,7 @@ public static void main(String[] args) {
             String doc = "" + j;
             if (!Escenario1.ordenLlegada.contains(doc)) {
                 Escenario1.ordenLlegada.add(doc);
-                Paciente p = new Paciente(doc, "Paciente" + j, (j % 5) + 1);
+                Paciente p = new Paciente(doc, "Escenario1.Paciente" + j, (j % 5) + 1);
                 Escenario1.pacientes.put(doc, p);
                 Escenario1.triage.add(p);
             }
